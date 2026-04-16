@@ -1,9 +1,17 @@
 # # Playlist Vibe Builder (Merge Sort Visualizer)
+Playlist Vibe Builder (Problem 2): Given a list of songs with title, artist, energy score (0–100), and duration, the user selects a sort key (energy or duration) and the app re-orders the playlist from lowest to highest — animating every comparison and merge so the algorithm is easy to follow.
+
+
 
 # Algorithm Name
 Merge Sort
+-chosen because of its stability. Songs with equal energy scores keep their original relative order, which feels natural for music curation
 
 ## Demo video/gif/screenshot of test
+<img width="1916" height="994" alt="image" src="https://github.com/user-attachments/assets/19620263-0196-4cc0-86f4-0d73fa2a78b8" />
+
+
+
 
 ## Problem Breakdown & Computational Thinking
 
@@ -28,16 +36,31 @@ Input → User enters playlist → Merge Sort processes data → Sorted playlist
 (You can add a flowchart and write the four pillars of computational thinking briefly in bullets)
 
 ## Steps to Run
-1. Install required packages:
-   pip install -r requirements.txt
+# 1. Clone or download the project
 
-2. Run the app:
-   python app.py
+# 2. Install dependencies
+pip install -r requirements.txt
 
-3. Open the local link provided in the terminal
+# 3. Launch the app
+python app.py
+
+# 4. Open your browser at http://127.0.0.1:7860
 
 ## Hugging Face Link
 
 https://huggingface.co/spaces/BZETTI/Playlist_Vibe_Sorter
 
+Testing and Edge Cases
+
+Tested the default 8 songs with both sort keys --> Pass
+Tested 1 song --> Pass
+Tested 2 songs --> Pass
+Tested songs with equal energy --> Pass
+Tested a playlist which was already sorted aswell as reverse sorted --> Pass
+Tested Error Handling with seconds > 60 aswell as vibe > 100 --> Pass
+
 ## Author & AI Acknowledgment
+
+Author: Muhammad Bilal Zahid 
+
+AI Use- Claude (Anthropic) was used at Level 4 to help structure the project and write and review code. All algorithmic logic was understood, verified, and is explained by the author.
