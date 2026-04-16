@@ -33,7 +33,8 @@ Merge Sort
 ### Algorithmic thinking
 Input → User enters playlist → Merge Sort processes data → Sorted playlist is displayed
 
-(You can add a flowchart and write the four pillars of computational thinking briefly in bullets)
+<img width="684" height="790" alt="image" src="https://github.com/user-attachments/assets/81c98cc0-ace6-4d84-9ad6-aa3786fac068" />
+
 
 ## Steps to Run
 # 1. Clone or download the project
