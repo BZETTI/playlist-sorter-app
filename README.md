@@ -2,15 +2,12 @@
 Playlist Vibe Builder (Problem 2): Given a list of songs with title, artist, energy score (0–100), and duration, the user selects a sort key (energy or duration) and the app re-orders the playlist from lowest to highest — animating every comparison and merge so the algorithm is easy to follow.
 
 
-
 # Algorithm Name
 Merge Sort
--chosen because of its stability. Songs with equal energy scores keep their original relative order, which feels natural for music curation
+-chosen because of its stability. Songs with equal energy scores keep their original relative order, which feels natural for music curation.
 
 ## Demo video/gif/screenshot of test
 <img width="1916" height="994" alt="image" src="https://github.com/user-attachments/assets/19620263-0196-4cc0-86f4-0d73fa2a78b8" />
-
-
 
 
 ## Problem Breakdown & Computational Thinking
