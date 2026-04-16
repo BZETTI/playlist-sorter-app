@@ -38,4 +38,6 @@ Input → User enters playlist → Merge Sort processes data → Sorted playlist
 
 ## Hugging Face Link
 
+https://huggingface.co/spaces/BZETTI/Playlist_Vibe_Sorter
+
 ## Author & AI Acknowledgment
