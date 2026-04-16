@@ -38,6 +38,7 @@ Input → User enters playlist → Merge Sort processes data → Sorted playlist
 
 ## Steps to Run
 # 1. Clone or download the project
+https://github.com/BZETTI/playlist-sorter-app.git
 
 # 2. Install dependencies
 pip install -r requirements.txt
